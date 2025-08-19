@@ -48,7 +48,7 @@ plt.figure(figsize=(8,5))
 plt.barh(sorted_by_value["Spec"], sorted_by_value["Population"])
 plt.title(f"Weekly Values ({week_stamp})")
 plt.xlabel("Population")
-plt.ylabel("Spec (Alphabetical)")
+plt.ylabel("Class and Spec")
 plt.tight_layout()
 
 # save the charts
